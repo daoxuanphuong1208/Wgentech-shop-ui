@@ -1,5 +1,7 @@
 :root {
   --text-color: #2c2a29;
+  --text-color-2: #1f1f1f;
+  --background-main: #f4f0ea;
 }
 
 * {
@@ -14,10 +16,16 @@ body {
   font-style: normal;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
 }
 
 ul {
